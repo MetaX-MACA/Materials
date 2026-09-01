@@ -1,6 +1,6 @@
 # Material
 
-本项目汇集了多个可用于**沐曦（MetaX）GPU** 的 材料科学计算解决方案。我们专注于构建高性能、易适配的AI for Material 软件栈，助力您在材料科学等前沿领域的科研与开发工作。
+本项目汇集了多个可用于**沐曦（MetaX）GPU** 的材料科学计算解决方案。我们专注于构建高性能、易适配的AI for Material 软件栈，助力您在材料科学等前沿领域的科研与开发工作。
 
 ## 📂 项目结构与说明
 
@@ -13,7 +13,8 @@
 
 | 名称 | 类别 | 核心任务/技术 | 适用场景 |
 | :--- | :--- | :--- | :--- |
-| **[MatterSim](https://github.com/microsoft/mattersim)** | 深度学习原子模拟模型 | 应用于多种元素、温度和压力条件下的材料模拟 | 材料模拟 |
+| **[MatterSim](https://github.com/MetaX-MACA/Materials/tree/main/MatterSim)** | 深度学习原子模拟模型 | 应用于多种元素、温度和压力条件下的材料模拟 | 材料模拟 |
+| **[MatterGen](https://github.com/MetaX-MACA/Materials/tree/main/MatterGen)** | 生成式AI模型 | 用于无机材料设计，根据目标性能生成晶体结构 | 无机材料设计 |
 
 
 >更多框架和应用正在持续适配与添加中，敬请关注。
