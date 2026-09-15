@@ -11,11 +11,16 @@
 
 以下是目前已适配沐曦GPU的核心AI框架与科学计算模型概览：
 
-| 名称 | 类别 | 核心任务/技术 | 适用场景 |
-| :--- | :--- | :--- | :--- |
-| **[MatterSim](https://github.com/MetaX-MACA/Materials/tree/main/MatterSim)** | 深度学习原子模拟模型 | 应用于多种元素、温度和压力条件下的材料模拟 | 材料模拟 |
-| **[MatterGen](https://github.com/MetaX-MACA/Materials/tree/main/MatterGen)** | 生成式AI模型 | 用于无机材料设计，根据目标性能生成晶体结构 | 无机材料设计 |
-
+| 模型/工具 | 类型 | 用途 |
+| --- | --- | --- |
+| **[ALIGNN](https://github.com/MetaX-MACA/Materials/tree/main/ALIGNN)** | 性质预测 | 基于原子图和原子线图建模二体与三体相互作用，用于形成能、带隙等材料性质预测 |
+| **[Aviary](https://github.com/MetaX-MACA/Materials/tree/main/Aviary)** | 模型库 | 为多种材料发现模型提供统一接口，支持模型的训练、推理与对比 |
+| **[EquiformerV2](https://github.com/MetaX-MACA/Materials/tree/main/EquiformerV2)** | 机器学习势 | 基于等变 Transformer 预测原子体系的能量和力，主要用于催化体系的结构—能量与力预测 |
+| **[MACE](https://github.com/MetaX-MACA/Materials/tree/main/MACE)** | 机器学习势 | 用于机器学习原子间势的训练与推理，支持能量、原子力和应力预测，以及结构优化与分子动力学模拟 |
+| **[MatGL](https://github.com/MetaX-MACA/Materials/tree/main/MatGL)** | 模型库 | 提供材料图神经网络、预训练性质预测模型和机器学习势，支持模型训练、推理与微调 |
+| **[MatRIS](https://github.com/MetaX-MACA/Materials/tree/main/MatRIS)** | 机器学习势 | 预测材料体系的能量、原子力、应力和磁矩，支持结构优化与原子尺度模拟 |
+| **[MatterGen](https://github.com/MetaX-MACA/Materials/tree/main/MatterGen)** | 结构生成 | 生成多样化的无机晶体候选结构，并支持根据化学体系或目标性质进行条件生成 |
+| **[MatterSim](https://github.com/MetaX-MACA/Materials/tree/main/MatterSim)** | 机器学习势 | 预测材料体系的能量、原子力和应力，支持结构优化、分子动力学及声子等材料性质计算 |
 
 >更多框架和应用正在持续适配与添加中，敬请关注。
 
